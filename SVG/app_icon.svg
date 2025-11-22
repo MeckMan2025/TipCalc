@@ -1,0 +1,44 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    MECKMAN DESIGN SYSTEM V4 - APP ICON 
+    Theme: Precision framed through curiosity.
+    Keywords: Focus, Control, Discovery.
+  -->
+
+  <!-- 1. ENVIRONMENT: Endless Space (Black #000000) -->
+  <rect width="1024" height="1024" fill="#000000" />
+
+  <!-- 2. SCHEMATIC PATTERN: Faint Grid (Opacity 5%) 
+       Reinforces "Precision Engineering"
+  -->
+  <defs>
+    <pattern id="grid" width="128" height="128" patternUnits="userSpaceOnUse">
+      <path d="M 128 0 L 0 0 0 128" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#grid)" />
+
+  <!-- 3. STRUCTURE: The Panel (Charcoal #2A2A2A) 
+       Rounded corners (approx 22% radius for smooth apple-like squircle look)
+       Border: Tan (#FFF2CC) - "Warmth and Craftsmanship"
+  -->
+  <rect x="152" y="152" width="720" height="720" rx="160" fill="#2A2A2A" stroke="#FFF2CC" stroke-width="12" />
+
+  <!-- 4. SYMBOL: The Split (Tan #FFF2CC)
+       A precise diagonal cut representing the "Tip Split".
+  -->
+  <line x1="360" y1="664" x2="664" y2="360" stroke="#FFF2CC" stroke-width="48" stroke-linecap="round" />
+
+  <!-- 5. ELEMENT: The Source (Tan Hollow Ring)
+       Represents the Bill/Total. Hollow = "Discovery/Open"
+  -->
+  <circle cx="430" cy="430" r="50" fill="none" stroke="#FFF2CC" stroke-width="24" />
+
+  <!-- 6. THE CURIOSITY SPARK (Red #CC0000)
+       Represents the individual share.
+       Solid Red Dot = "The Point of Interest / The Result"
+       "Rare and deliberate."
+  -->
+  <circle cx="594" cy="594" r="32" fill="#CC0000" />
+
+</svg>

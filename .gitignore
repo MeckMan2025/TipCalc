@@ -20,3 +20,12 @@ DerivedData/
 .cvs
 .idea
 .vscode
+
+# Claude Code
+.claude/
+
+# Environment & secrets
+.env
+.dev.vars
+*.key
+*.pem

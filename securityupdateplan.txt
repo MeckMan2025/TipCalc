@@ -1,0 +1,15 @@
+MECKMAN iOS TIPCALC (TipSplitterV4) - SECURITY UPDATE PLAN
+=============================================================
+Date: 2026-02-22
+Overall Risk: VERY LOW
+
+No secrets, no network calls, no data persistence. Pure SwiftUI tip calculator.
+
+LOW
+---
+[ ] 1. Project is on iCloud Drive — .git/ history syncs to cloud. Consider moving to ~/Developer/
+
+INFO
+----
+[ ] 2. Update .gitignore to proactively exclude .env, .dev.vars, .claude/, Secrets.swift, *.xcconfig
+[ ] 3. Public name/handle in README and LICENSE — standard for open source, no action required
